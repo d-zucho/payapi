@@ -2,7 +2,6 @@ import type { Metadata } from 'next'
 import { DM_Serif_Display, Public_Sans } from 'next/font/google'
 import './globals.css'
 import Header from '@/sections/Header'
-import Image from 'next/image'
 import BgCircle from '@/components/BgCircle'
 
 const serifDisplay = DM_Serif_Display({
@@ -29,10 +28,11 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body
-        className={`${serifDisplay.className} ${publicSans.className} antialiased relative overflow-clip`}
+        className={`${serifDisplay.className} ${publicSans.className} antialiased relative overflow-clip `}
       >
         <BgCircle />
         <Header />
+
         {children}
       </body>
     </html>
