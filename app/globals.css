@@ -72,7 +72,7 @@ body {
 
 @layer components {
   .h1-large {
-    @apply text-7xl font-serif-display leading-[72px];
+    @apply text-[32px] md:text-[56px] lg:text-7xl font-serif-display leading-16 lg:leading-20;
   }
 
   .h1-small {

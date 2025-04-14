@@ -3,13 +3,13 @@ import React from 'react'
 
 const BgCircle = () => {
   return (
-    <div className='bg-circle'>
+    <div className=''>
       <Image
         src='/shared/desktop/bg-pattern-circle.svg'
         alt='bg'
-        width={1000}
-        height={1000}
-        className='absolute -top-1/2 -translate-y-1/2 lg:w-[768px] lg:-right-[220px] lg:-top-1/5 lg:-translate-y-1/5 pointer-events-none'
+        width={900}
+        height={900}
+        className='fixed -top-1/4 sm:-top-1/2 md:-top-1/5 md:-right-[220px] md:w-[768px] -z-20'
       />
     </div>
   )

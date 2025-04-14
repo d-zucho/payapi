@@ -30,10 +30,10 @@ export default function RootLayout({
       <body
         className={`${serifDisplay.className} ${publicSans.className} antialiased relative overflow-clip `}
       >
-        <BgCircle />
         <Header />
 
         {children}
+        <BgCircle />
       </body>
     </html>
   )

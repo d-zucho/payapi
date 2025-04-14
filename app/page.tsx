@@ -1,9 +1,9 @@
-import BgCircle from '@/components/BgCircle'
+import Hero from '@/sections/Hero'
 
 export default function Home() {
   return (
-    <div className=''>
-      <p>test</p>
+    <div className='relative'>
+      <Hero />
     </div>
   )
 }
