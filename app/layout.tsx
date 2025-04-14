@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body
-        className={`${serifDisplay.className} ${publicSans.className} antialiased relative overflow-clip `}
+        className={`${serifDisplay.className} ${publicSans.className} antialiased relative overflow-x-clip `}
       >
         <Header />
 

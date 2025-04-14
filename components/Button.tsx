@@ -11,7 +11,7 @@ const Button = ({ label, variant = 'primary' }: ButtonProps) => {
     <>
       <button
         className={cn(
-          'h-12 px-5 rounded-full font-bold transition-colors duration-300 ease-in-out hover:cursor-pointer',
+          'h-12 px-5 rounded-full font-bold transition-colors duration-300 ease-in-out hover:cursor-pointer max-sm:text-sm',
           {
             'bg-primary-pink text-primary-white hover:bg-my-active-pink':
               variant === 'primary',

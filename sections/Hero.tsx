@@ -2,10 +2,11 @@ import MaxWidthWrapper from '@/components/MaxWidthWrapper'
 import Image from 'next/image'
 import HeroPhone from '@/public/home/desktop/illustration-phone-mockup copy.svg'
 import Button from '@/components/Button'
+import Input from '@/components/Input'
 
 const Hero = () => {
   return (
-    <section className='relative'>
+    <section className='relative mt-8'>
       <MaxWidthWrapper>
         <div className='wrapper flex flex-col-reverse md:flex-row justify-between items-center gap-10'>
           {/* HERO LEFT -- START */}
@@ -13,20 +14,15 @@ const Hero = () => {
             <h1 className='h1-large text-my-blue text-center mx-auto md:text-left max-md:max-w-lg '>
               Start building with our APIs for absolutely free.
             </h1>
-            <div className='w-fit bg-primary-white rounded-full max-md:mx-auto mt-10'>
-              <input
-                type='text'
-                name=''
-                id=''
-                placeholder='Enter your email address'
-                className='bg-primary-white rounded-full h-12 pl-5 outline-0'
-              />
-              <Button />
-            </div>
+            <Input />
+            <p className='w-fit mt-2 pl-5 text-my-light-blue mx-auto md:mx-0'>
+              Have any questions?
+              <span className='font-bold'> Contact Us</span>
+            </p>
           </div>
 
           {/* HERO RIGHT -- START */}
-          <div className='w-full '>
+          <div className='w-full'>
             <Image
               src={HeroPhone}
               alt='Hero'
