@@ -9,7 +9,7 @@ const BgCircle = () => {
         alt='bg'
         width={900}
         height={900}
-        className='fixed -top-1/4 sm:-top-1/2 md:-top-1/5 md:-right-[220px] md:w-[768px] -z-20'
+        className='absolute -top-1/6 sm:-top-1/6 md:-right-[220px] md:w-[768px] -z-20'
       />
     </div>
   )

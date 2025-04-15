@@ -1,4 +1,5 @@
 import Hero from '@/sections/Hero'
+import Implement from '@/sections/Implement'
 import Partners from '@/sections/Partners'
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <div className='relative'>
       <Hero />
       <Partners />
+      <Implement />
     </div>
   )
 }
