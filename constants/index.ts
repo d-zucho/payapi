@@ -6,6 +6,7 @@ import HP from '@/public/shared/desktop/hewlett-packard.svg'
 import Nvidia from '@/public/shared/desktop/nvidia.svg'
 // import ImplementWindow from '@/public/home/desktop/illustration-easy-to-implement.svg'
 import ImplementWindow from '@/public/home/easy-to-implement.svg'
+import UIPhones from '@/public/home/desktop/illustration-simple-ui.svg'
 
 export const NAV_LINKS: TNavlink[] = [
   {
@@ -22,4 +23,13 @@ export const NAV_LINKS: TNavlink[] = [
   },
 ]
 
-export { Tesla, Oracle, Microsoft, Google, HP, Nvidia, ImplementWindow }
+export {
+  Tesla,
+  Oracle,
+  Microsoft,
+  Google,
+  HP,
+  Nvidia,
+  ImplementWindow,
+  UIPhones,
+}

@@ -14,7 +14,7 @@ const Partners = () => {
           {/* CONTENT -- START */}
           <div className='flex-1 text-center lg:text-left'>
             <h2 className='text-primary-white h2'>Who we work with</h2>
-            <p className='text-primary-white/70 max-w-prose'>
+            <p className='text-primary-white/70 max-w-prose mt-4 lg:max-w-lg'>
               Today, millions of people around the world have successfully
               connected their accounts to apps they love using our API. We
               provide developers with the tools they need to create easy and

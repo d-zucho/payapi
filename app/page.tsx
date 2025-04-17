@@ -1,3 +1,4 @@
+import EasyUI from '@/sections/EasyUI'
 import Hero from '@/sections/Hero'
 import Implement from '@/sections/Implement'
 import Partners from '@/sections/Partners'
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <Partners />
       <Implement />
+      <EasyUI />
     </div>
   )
 }
