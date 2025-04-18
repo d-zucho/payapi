@@ -9,14 +9,14 @@ interface BenefitProps {
 
 const Benefit = ({ benefit, info, icon }: BenefitProps) => {
   return (
-    <article className='max-lg:w-[220px] w-[320px] max-w-[350px]'>
-      <div className=''>
+    <article className='w-[320px] max-w-[350px]'>
+      <div className='mb-8'>
         <Image
           src={icon}
           alt={benefit}
           width={100}
           height={100}
-          className='my-4 mx-auto'
+          className='mx-auto'
         />
       </div>
       <div className='text-center'>
