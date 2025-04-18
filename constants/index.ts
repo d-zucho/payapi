@@ -7,6 +7,9 @@ import Nvidia from '@/public/shared/desktop/nvidia.svg'
 // import ImplementWindow from '@/public/home/desktop/illustration-easy-to-implement.svg'
 import ImplementWindow from '@/public/home/easy-to-implement.svg'
 import UIPhones from '@/public/home/desktop/illustration-simple-ui.svg'
+import BankingIcon from '@/public/home/desktop/icon-banking-and-coverage.svg'
+import ConsumerIcon from '@/public/home/desktop/icon-consumer-payments.svg'
+import PersonalFinancesIcon from '@/public/home/desktop/icon-personal-finances.svg'
 
 export const NAV_LINKS: TNavlink[] = [
   {
@@ -22,6 +25,23 @@ export const NAV_LINKS: TNavlink[] = [
     href: '/contact',
   },
 ]
+export const BENEFITS: TBenefitCardInfo[] = [
+  {
+    benefit: 'Personal Finances',
+    info: 'Consolidate financial data from multiple sources and categorize transactions up to 2 years of history. Analyze reports to reconcile activities in your account. ',
+    icon: PersonalFinancesIcon,
+  },
+  {
+    benefit: 'Banking & Coverage',
+    info: 'With our platform, you can speed up account onboarding and support ongoing payments for checking, savings, credit card, and brokerage accounts.',
+    icon: BankingIcon,
+  },
+  {
+    benefit: 'Consumer Payments',
+    info: 'It’s easier to set up secure bank payments with us through a flow designed with the user experience in mind. Customers could instantly authenticate their account.',
+    icon: ConsumerIcon,
+  },
+]
 
 export {
   Tesla,
@@ -32,4 +52,7 @@ export {
   Nvidia,
   ImplementWindow,
   UIPhones,
+  BankingIcon,
+  ConsumerIcon,
+  PersonalFinancesIcon,
 }
