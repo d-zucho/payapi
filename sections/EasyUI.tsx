@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const EasyUI = () => {
   return (
-    <section className='mt-20 relative'>
+    <section className='mt-20 relative '>
       <BgCircle classNames='-top-[450px]' />
       <MaxWidthWrapper>
         <div

@@ -7,7 +7,7 @@ import Partners from '@/sections/Partners'
 
 export default function Home() {
   return (
-    <div className='relative'>
+    <div className='relative overflow-clip'>
       <Hero />
       <Partners />
       <Implement />
