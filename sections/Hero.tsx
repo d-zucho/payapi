@@ -11,7 +11,7 @@ const Hero = () => {
         <div className='wrapper flex flex-col-reverse md:flex-row justify-between items-center gap-10'>
           {/* HERO LEFT -- START */}
           <div>
-            <h1 className='h1-large text-my-blue text-center mx-auto md:text-left max-md:max-w-lg '>
+            <h1 className='h1-large text-my-blue text-center mx-auto md:text-left max-md:max-w-lg mb-8'>
               Start building with our APIs for absolutely free.
             </h1>
             <Input />

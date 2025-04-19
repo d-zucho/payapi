@@ -9,7 +9,7 @@ interface Props {
 
 const Input = ({ placeholder, className }: Props) => {
   return (
-    <div className='max-w-fit bg-primary-white rounded-full max-md:mx-auto max-lg:mt-10 flex'>
+    <div className='max-w-fit bg-primary-white rounded-full max-md:mx-auto max-lg:mt-10 flex shadow-lg'>
       <input
         type='email'
         name=''

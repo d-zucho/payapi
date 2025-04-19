@@ -16,6 +16,24 @@ import UIPhones from '@/public/home/desktop/illustration-simple-ui.svg'
 import BankingIcon from '@/public/home/desktop/icon-banking-and-coverage.svg'
 import ConsumerIcon from '@/public/home/desktop/icon-consumer-payments.svg'
 import PersonalFinancesIcon from '@/public/home/desktop/icon-personal-finances.svg'
+import Twitter from '@/public/shared/desktop/twitter.svg'
+import Facebook from '@/public/shared/desktop/facebook.svg'
+import LinkedIn from '@/public/shared/desktop/linkedin.svg'
+
+export const SOCIALS: { label: string; icon: string }[] = [
+  {
+    label: 'Twitter',
+    icon: Twitter,
+  },
+  {
+    label: 'Facebook',
+    icon: Facebook,
+  },
+  {
+    label: 'LinkedIn',
+    icon: LinkedIn,
+  },
+]
 
 export const NAV_LINKS: TNavlink[] = [
   {

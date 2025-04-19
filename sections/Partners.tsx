@@ -1,7 +1,13 @@
 import MaxWidthWrapper from '@/components/MaxWidthWrapper'
-import { Google, HP, Microsoft, Nvidia, Oracle, Tesla } from '@/constants'
+import {
+  GoogleWhite,
+  HPWhite,
+  MicrosoftWhite,
+  NvidiaWhite,
+  OracleWhite,
+  TeslaWhite,
+} from '@/constants'
 import Image from 'next/image'
-import React from 'react'
 
 const Partners = () => {
   return (
@@ -25,16 +31,26 @@ const Partners = () => {
           {/* IMAGES -- START */}
           <div className='flex-1 flex max-lg:gap-10 gap-5 justify-between items-center max-lg:mt-10'>
             <div className='space-y-10'>
-              <Image src={Tesla} alt='Tesla' className='' width={100} />
-              <Image src={Oracle} alt='Oracle' className='' width={100} />
+              <Image src={TeslaWhite} alt='Tesla' className='' width={100} />
+              <Image src={OracleWhite} alt='Oracle' className='' width={100} />
             </div>
             <div className='space-y-10'>
-              <Image src={Microsoft} alt='Microsoft' className='' width={100} />
-              <Image src={Google} alt='Google' className='' width={100} />
+              <Image
+                src={MicrosoftWhite}
+                alt='Microsoft'
+                className=''
+                width={100}
+              />
+              <Image src={GoogleWhite} alt='Google' className='' width={100} />
             </div>
             <div className='space-y-10'>
-              <Image src={HP} alt='Hewitt Packard' className='' width={100} />
-              <Image src={Nvidia} alt='Nvidia' className='' width={100} />
+              <Image
+                src={HPWhite}
+                alt='Hewitt Packard'
+                className=''
+                width={100}
+              />
+              <Image src={NvidiaWhite} alt='Nvidia' className='' width={100} />
             </div>
           </div>
         </div>
