@@ -1,18 +1,16 @@
 import MaxWidthWrapper from '@/components/MaxWidthWrapper'
-import Logo from '@/public/shared/desktop/logo.svg'
 import Image from 'next/image'
-import { NAV_LINKS } from '@/constants'
+import Logo from '@/public/shared/desktop/logo.svg'
 import Link from 'next/link'
-import Button from '@/components/Button'
-import MobileNav from './MobileNav'
+import { NAV_LINKS } from '@/constants'
 
-const Navbar = () => {
+const Footer = () => {
   return (
-    <div>
-      <MaxWidthWrapper className='flex justify-between items-center'>
+    <footer className='bg-my-darkest-blue w-full'>
+      <MaxWidthWrapper>
         <div className='flex items-center gap-14'>
           <Link href='/'>
-            <Image src={Logo} alt='logo' />
+            <Image src={Logo} alt='logo' className='text-white' />
           </Link>
           <div className='hidden sm:flex gap-8'>
             <nav className='flex gap-6'>
@@ -28,16 +26,9 @@ const Navbar = () => {
             </nav>
           </div>
         </div>
-
-        <div className='sm:hidden'>
-          <MobileNav />
-        </div>
-        <div className='hidden sm:flex'>
-          <Button />
-        </div>
       </MaxWidthWrapper>
-    </div>
+    </footer>
   )
 }
 
-export default Navbar
+export default Footer

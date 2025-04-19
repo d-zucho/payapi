@@ -3,6 +3,7 @@ import { DM_Serif_Display, Public_Sans } from 'next/font/google'
 import './globals.css'
 import Header from '@/sections/Header'
 import BgCircle from '@/components/BgCircle'
+import Footer from '@/sections/Footer'
 
 const serifDisplay = DM_Serif_Display({
   subsets: ['latin'],
@@ -33,6 +34,7 @@ export default function RootLayout({
         <Header />
 
         {children}
+        <Footer />
         <BgCircle />
       </body>
     </html>

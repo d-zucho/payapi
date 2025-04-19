@@ -1,9 +1,15 @@
 import Tesla from '@/public/shared/desktop/tesla.svg'
+import TeslaWhite from '@/public/shared/desktop/tesla-white.svg'
 import Oracle from '@/public/shared/desktop/oracle.svg'
+import OracleWhite from '@/public/shared/desktop/oracle-white.svg'
 import Microsoft from '@/public/shared/desktop/microsoft.svg'
+import MicrosoftWhite from '@/public/shared/desktop/microsoft-white.svg'
 import Google from '@/public/shared/desktop/google.svg'
+import GoogleWhite from '@/public/shared/desktop/google-white.svg'
 import HP from '@/public/shared/desktop/hewlett-packard.svg'
+import HPWhite from '@/public/shared/desktop/hp-white.svg'
 import Nvidia from '@/public/shared/desktop/nvidia.svg'
+import NvidiaWhite from '@/public/shared/desktop/nvidia-white.svg'
 // import ImplementWindow from '@/public/home/desktop/illustration-easy-to-implement.svg'
 import ImplementWindow from '@/public/home/easy-to-implement.svg'
 import UIPhones from '@/public/home/desktop/illustration-simple-ui.svg'
@@ -50,6 +56,12 @@ export {
   Google,
   HP,
   Nvidia,
+  TeslaWhite,
+  OracleWhite,
+  MicrosoftWhite,
+  GoogleWhite,
+  HPWhite,
+  NvidiaWhite,
   ImplementWindow,
   UIPhones,
   BankingIcon,
