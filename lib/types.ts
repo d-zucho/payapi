@@ -8,3 +8,10 @@ type TBenefitCardInfo = {
   info: string
   icon: string
 }
+
+type TPricingPlan = {
+  plan: string
+  price: string
+  info: string
+  features: number
+}

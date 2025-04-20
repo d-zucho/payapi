@@ -1,8 +1,10 @@
 import MaxWidthWrapper from '@/components/MaxWidthWrapper'
 import Image from 'next/image'
 import HeroPhone from '@/public/home/desktop/illustration-phone-mockup copy.svg'
-import Button from '@/components/Button'
+
 import Input from '@/components/Input'
+import { cn } from '@/lib/utils'
+import Link from 'next/link'
 
 const Hero = () => {
   return (
@@ -17,7 +19,14 @@ const Hero = () => {
             <Input />
             <p className='w-fit mt-2 pl-5 text-my-light-blue mx-auto md:mx-0'>
               Have any questions?
-              <span className='font-bold'> Contact Us</span>
+              <Link
+                href='/contact'
+                className={cn(
+                  'text-my-blue font-bold ml-1 hover:underline transition duration-1000'
+                )}
+              >
+                Contact Us
+              </Link>
             </p>
           </div>
 

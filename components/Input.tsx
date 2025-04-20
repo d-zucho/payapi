@@ -1,4 +1,3 @@
-import React from 'react'
 import Button from './Button'
 import { cn } from '@/lib/utils'
 
@@ -20,6 +19,7 @@ const Input = ({ placeholder, className }: Props) => {
           className
         )}
       />
+
       <Button />
     </div>
   )

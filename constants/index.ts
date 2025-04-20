@@ -19,6 +19,7 @@ import PersonalFinancesIcon from '@/public/home/desktop/icon-personal-finances.s
 import Twitter from '@/public/shared/desktop/twitter.svg'
 import Facebook from '@/public/shared/desktop/facebook.svg'
 import LinkedIn from '@/public/shared/desktop/linkedin.svg'
+import Check from '@/public/shared/desktop/icon-check.svg'
 
 export const SOCIALS: { label: string; icon: string }[] = [
   {
@@ -67,6 +68,27 @@ export const BENEFITS: TBenefitCardInfo[] = [
   },
 ]
 
+export const PRICING_PLANS: TPricingPlan[] = [
+  {
+    plan: 'Free',
+    price: '$0.00',
+    info: 'Build and test using our core set of products with up to 100 API requests',
+    features: 3,
+  },
+  {
+    plan: 'Basic',
+    price: '$249.00',
+    info: 'Launch your project with unlimited requests and no contractual minimums',
+    features: 5,
+  },
+  {
+    plan: 'Premium',
+    price: '$499.00',
+    info: 'Get tailored solutions, volume pricing, and dedicated support for your team ',
+    features: 7,
+  },
+]
+
 export {
   Tesla,
   Oracle,
@@ -85,4 +107,5 @@ export {
   BankingIcon,
   ConsumerIcon,
   PersonalFinancesIcon,
+  Check,
 }
