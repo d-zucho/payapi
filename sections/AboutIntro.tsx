@@ -1,10 +1,4 @@
-import Image from 'next/image'
-import React from 'react'
-
 const AboutIntro = () => {
-  // const DesktopBanner = '@/public/about/desktop/image-team-members.jpg'
-  // const TabletBanner = '@/public/about/tablet/image-team-members.jpg'
-  // const MobileBanner = '@/public/about/mobile/image-team-members.jpg'
   return (
     <div className='mt-20'>
       <div className='mb-12 md:grid md:grid-cols-4'>

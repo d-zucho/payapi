@@ -35,6 +35,33 @@ const AboutPage = () => {
           </picture>
         </div>
         <AboutInfo />
+        <MaxWidthWrapper>
+          <section className='mt-20'>
+            <div className='mb-12 md:grid md:grid-cols-4'>
+              <h2 className='h3-big text-my-blue text-center md:text-left mb-4'>
+                Our Business
+              </h2>
+              <p className='text-my-light-blue text-center max-w-md lg:max-w-lg mx-auto md:text-left md:col-span-3'>
+                We strongly believe there's always an opportunity to learn from
+                each other outside of day-to-day work, whether it's company-wide
+                offsites, internal hackathons, or co-worker meetups. We always
+                value cross-team collaboration and diversity of thought, no
+                matter the job title.
+              </p>
+            </div>
+            <div className='md:grid md:grid-cols-4'>
+              <h2 className='h3-big text-my-blue text-center md:text-left mb-4'>
+                The People
+              </h2>
+              <p className='text-my-light-blue text-center md:text-left max-w-md lg:max-w-lg mx-auto md:col-span-3'>
+                We're all passionate about building a more efficient and
+                inclusive financial infrastructure together. At PayAPI, we have
+                diverse backgrounds and skills.
+              </p>
+            </div>
+          </section>
+        </MaxWidthWrapper>
+
         <HomeCTA />
       </div>
     </>
