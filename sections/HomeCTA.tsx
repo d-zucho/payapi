@@ -7,7 +7,7 @@ const HomeCTA = () => {
     <section className='mt-40'>
       <MaxWidthWrapper>
         <div className='flex flex-col items-center lg:flex-row lg:justify-between '>
-          <h2 className='text-5xl font-serif-display leading-[6rem]'>
+          <h2 className='text-5xl text-my-blue font-serif-display leading-[6rem]'>
             Ready to start?
           </h2>
           <div className=''>

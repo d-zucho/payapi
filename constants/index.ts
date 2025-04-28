@@ -89,6 +89,21 @@ export const PRICING_PLANS: TPricingPlan[] = [
   },
 ]
 
+export const ABOUT_FACTS: TAboutFact[] = [
+  {
+    fact: '300+',
+    info: 'Team Members',
+  },
+  {
+    fact: '3',
+    info: 'Offices in the US',
+  },
+  {
+    fact: '10M+',
+    info: 'Transactions analyzed',
+  },
+]
+
 export {
   Tesla,
   Oracle,

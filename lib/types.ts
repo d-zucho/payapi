@@ -15,3 +15,8 @@ type TPricingPlan = {
   info: string
   features: number
 }
+
+type TAboutFact = {
+  fact: string
+  info: string
+}

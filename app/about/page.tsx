@@ -1,5 +1,7 @@
 import MaxWidthWrapper from '@/components/MaxWidthWrapper'
+import AboutInfo from '@/sections/AboutInfo'
 import AboutIntro from '@/sections/AboutIntro'
+import HomeCTA from '@/sections/HomeCTA'
 import React from 'react'
 
 const AboutPage = () => {
@@ -15,7 +17,7 @@ const AboutPage = () => {
             <AboutIntro />
           </div>
         </MaxWidthWrapper>
-        <div className='w-full'>
+        <div className='w-full mt-20'>
           <picture className='w-full'>
             <source
               srcSet={'/about/desktop/image-team-members.jpg'}
@@ -28,10 +30,12 @@ const AboutPage = () => {
             <img
               src='/about/mobile/image-team-members.jpg'
               alt='Team Members'
-              className='w-full'
+              className='w-full h-[300px] md:h-[250px] lg:h-[500px] object-cover'
             />
           </picture>
         </div>
+        <AboutInfo />
+        <HomeCTA />
       </div>
     </>
   )
