@@ -20,3 +20,12 @@ type TAboutFact = {
   fact: string
   info: string
 }
+
+type FORM_DATA = {
+  name: string
+  email: string
+  companyName: string
+  title: string
+  message: string
+  subscribe: boolean
+}
